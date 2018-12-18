@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DiaryTableViewCellContentView" customModule="DiaryApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -72,6 +72,13 @@
                 <constraint firstItem="8vt-SE-Ou0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="wvE-mw-yUA"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="leftButton" destination="8vt-SE-Ou0" id="na3-yL-IQo"/>
+                <outlet property="postImageOutlet" destination="w40-em-wh6" id="nfB-g5-XCP"/>
+                <outlet property="postTimestamp" destination="LlF-65-9oN" id="QFo-b1-X8g"/>
+                <outlet property="postTitle" destination="mRb-Ka-2Js" id="xph-y4-qgG"/>
+                <outlet property="rightButton" destination="uh9-Gf-0Bj" id="7Uk-dY-gte"/>
+            </connections>
         </view>
     </objects>
 </document>

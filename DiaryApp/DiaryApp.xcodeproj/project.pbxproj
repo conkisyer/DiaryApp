@@ -17,6 +17,8 @@
 		4B89BE2C21C9121C00A815BC /* DiaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89BE2B21C9121C00A815BC /* DiaryAppUITests.swift */; };
 		4B89BE3A21C9209100A815BC /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89BE3921C9209100A815BC /* DiaryTableViewController.swift */; };
 		4B89BE3C21C9215B00A815BC /* SingleDiaryEntryCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B89BE3B21C9215B00A815BC /* SingleDiaryEntryCellView.xib */; };
+		4B89BE3E21C924A300A815BC /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89BE3D21C924A300A815BC /* DiaryTableViewCell.swift */; };
+		4B89BE4021C929C900A815BC /* DiaryTableViewCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89BE3F21C929C900A815BC /* DiaryTableViewCellContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4B89BE2D21C9121C00A815BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B89BE3921C9209100A815BC /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
 		4B89BE3B21C9215B00A815BC /* SingleDiaryEntryCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleDiaryEntryCellView.xib; sourceTree = "<group>"; };
+		4B89BE3D21C924A300A815BC /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		4B89BE3F21C929C900A815BC /* DiaryTableViewCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCellContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,9 @@
 				4B89BE0821C9121800A815BC /* AppDelegate.swift */,
 				4B89BE0A21C9121800A815BC /* ViewController.swift */,
 				4B89BE0C21C9121800A815BC /* Main.storyboard */,
+				4B89BE3F21C929C900A815BC /* DiaryTableViewCellContentView.swift */,
 				4B89BE3921C9209100A815BC /* DiaryTableViewController.swift */,
+				4B89BE3D21C924A300A815BC /* DiaryTableViewCell.swift */,
 				4B89BE3B21C9215B00A815BC /* SingleDiaryEntryCellView.xib */,
 				4B89BE1221C9121B00A815BC /* Assets.xcassets */,
 				4B89BE1421C9121B00A815BC /* LaunchScreen.storyboard */,
@@ -267,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B89BE1121C9121800A815BC /* DiaryApp.xcdatamodeld in Sources */,
+				4B89BE3E21C924A300A815BC /* DiaryTableViewCell.swift in Sources */,
 				4B89BE3A21C9209100A815BC /* DiaryTableViewController.swift in Sources */,
 				4B89BE0B21C9121800A815BC /* ViewController.swift in Sources */,
+				4B89BE4021C929C900A815BC /* DiaryTableViewCellContentView.swift in Sources */,
 				4B89BE0921C9121800A815BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
